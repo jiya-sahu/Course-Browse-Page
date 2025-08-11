@@ -1075,12 +1075,36 @@ font-family: 'Poppins', sans-serif;
 
 
 @media (max-width: 768px) {
+  .hero-section {
+
+  padding: 2rem 1rem;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 300px;
+ 
+}.search-bar {
+    margin-top: 2rem;
+    padding: 8px;
+    width: 95%; /* Force it to fit within small screens */
+  }
+
+  .search-bar input {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+   
+  }
+
+  .search-bar button {
+    width: 100px;
+    height: 35px;
+  }
   .stat-badge.top{
     visibility: hidden;
   }
     .stat-badge.bottom{
     visibility: hidden;
-  }
+  } 
   .new-launches-section {
    
     margin-top: 10px;
@@ -1111,6 +1135,20 @@ font-family: 'Poppins', sans-serif;
         top: 10px;
         text-align: center; 
     }
+    .hero-text {
+  text-align: center;
+ width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+
+}
+.hero-text p {
+  font-size: 1rem;
+
+}
+
    .hcard-container {
     flex-direction: column;
     align-items: center;
